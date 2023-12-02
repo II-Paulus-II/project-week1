@@ -3,13 +3,31 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     position: fixed;
+    display: flex;
+}
+
+.page-title {
+    font-size: 1.2rem;
 }
 
 .white-text {
     color: white;
     z-index: 1;
+}
+
+.nav-syle {
+    font-size: 1.1rem;
+}
+
+.information-position {
+    position: absolute;
+    bottom: 25%;
 }
 
 .background-fullHeight {
