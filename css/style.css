@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    position: fixed;
+}
+
+.white-text {
+    color: white;
+    z-index: 1;
+}
+
+.background-fullHeight {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.image-galaxy {
+    background-image: url(../images/galaxy.jpg);
+}
+
+.image-eclipse {
+    background-image: url(../images/eclipse.jpg);
+}
