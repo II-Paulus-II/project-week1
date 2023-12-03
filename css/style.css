@@ -5,6 +5,8 @@
 
 html {
     scroll-behavior: smooth;
+    text-transform: uppercase;
+    font-family: sans-serif;
 }
 
 header {
@@ -12,12 +14,11 @@ header {
     display: flex;
     padding: 2rem 2.5rem;
     gap: 6rem;
-    text-transform: uppercase;
 }
 
 .page-title {
     display: inherit;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 .white-text {
@@ -28,7 +29,8 @@ header {
 .nav-style {
     display: inherit;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-weight: bold;
     gap: 3rem;
 }
 
@@ -40,17 +42,23 @@ header {
     color: white;
 }
 
+.nav-style a:hover {
+    text-decoration: underline;
+}
+
 .information-position {
     position: absolute;
+    padding-left: 5rem;
     bottom: 25%;
 }
 
 .content-lineone {
-    font-size: 1rem;;
+    font-size: 2rem;;
 }
 
 .content-linetwo {
-    font-size: 1rem;;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .imageattrib-pos {
@@ -60,7 +68,16 @@ header {
 }
 
 .attribution-text {
-    font-size: 1rem;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.attribution-text a:link,a:visited,a:hover,a:active {
+    color: white;
+}
+
+span {
+    text-transform: lowercase;
 }
 
 .background-fullHeight {
