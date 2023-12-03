@@ -150,6 +150,11 @@ footer {
     height: 2.2rem;            
 }
 
+.fixed-footer {
+  position: absolute;
+  bottom: 0;
+}
+
 #aliens {
     display: none;
 }
