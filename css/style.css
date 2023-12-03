@@ -1,190 +1,190 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
 
 html {
-    scroll-behavior: smooth;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    background-color: black;
+  scroll-behavior: smooth;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  background-color: black;
 }
 
 header {
-    position: fixed;
-    display: flex;
-    padding: 2rem 2.5rem;
-    text-shadow: black 1px 1px;
-    gap: 6rem;
+  position: fixed;
+  display: flex;
+  padding: 2rem 2.5rem;
+  text-shadow: black 1px 1px;
+  gap: 6rem;
 }
 
 .page-title {
-    display: inherit;
-    font-weight: bolder;
-    font-size: 1.6rem;
+  display: inherit;
+  font-weight: bolder;
+  font-size: 1.6rem;
 }
 
 .white-text {
-    color: white;
-    z-index: 1;
+  color: white;
+  z-index: 1;
 }
 
 .nav-style {
-    display: inherit;
-    align-items: center;
-    font-size: 1rem;
-    font-weight: bold;
-    gap: 3rem;
+  display: inherit;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  gap: 3rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:link,a:visited,a:hover,a:active {
-    color: white;
+  color: white;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .information-position {
-    position: absolute;
-    padding-left: 2rem;
-    bottom: 35%;
+  position: absolute;
+  padding-left: 2rem;
+  bottom: 35%;
 }
 
 .content-lineone {
-    margin: 0.2rem 0rem;
-    padding: 0.2rem 0rem;
-    font-size: 2rem;
+  margin: 0.2rem 0rem;
+  padding: 0.2rem 0rem;
+  font-size: 2rem;
 }
 
 .content-linetwo {
-    margin: 0.2rem 0rem;
-    padding: 0.2rem 0rem;
-    font-size: 2.5rem;
-    font-weight: bold;
+  margin: 0.2rem 0rem;
+  padding: 0.2rem 0rem;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 .read-more-link {
-    opacity: 1;
-    display: inline-block;
-    margin: 0.5rem 0rem;
-    padding: 0.5rem 2rem;
-    font-size: 0.8rem;
-    letter-spacing: 0.1rem;
-    font-weight: bolder;
-    text-shadow: none;
-    border: solid white 2px;
+  opacity: 1;
+  display: inline-block;
+  margin: 0.5rem 0rem;
+  padding: 0.5rem 2rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: bolder;
+  text-shadow: none;
+  border: solid white 2px;
 }
 
 .read-more-link:hover {
-    text-decoration: none;
-    background-color: white;
-    color: black;
+  text-decoration: none;
+  background-color: white;
+  color: black;
 }
 
 .imageattrib-pos {
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
 }
 
 .attribution-text {
-    font-size: 0.8rem;
-    text-transform: capitalize;
-    text-shadow: none;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  text-shadow: none;
 }
 
 span {
-    text-transform: lowercase;
+  text-transform: lowercase;
 }
 
 .background-fullHeight {
-    height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
-    text-shadow: black 1px 1px;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  text-shadow: black 1px 1px;
 }
 
 .image-niketh {
-    background-image: url(../images/niketh-vellanki-space-unsplash.jpg);
-    text-shadow: black 2px 2px; /* meeds a little bit extra due to the spaceman */
+  background-image: url(../images/niketh-vellanki-space-unsplash.jpg);
+  text-shadow: black 2px 2px; /* meeds a little bit extra due to the spaceman */
 }
 
 .image-vincentiu {
-    background-image: url(../images/vincentiu-solomon-space-unsplash.jpg);
+  background-image: url(../images/vincentiu-solomon-space-unsplash.jpg);
 }
 
 .image-cerqueira {
-    background-image: url(../images/cerqueira-space-unsplash.jpg);
+  background-image: url(../images/cerqueira-space-unsplash.jpg);
 }
 
 .image-eberhard {
-    background-image: url(../images/eberhard-grossgasteiger-space-unsplash.jpg);
+  background-image: url(../images/eberhard-grossgasteiger-space-unsplash.jpg);
 }
 
 .image-aldebaran {
-    background-image: url(../images/aldebaran-s-space-unsplash.jpg);
+  background-image: url(../images/aldebaran-s-space-unsplash.jpg);
 }
 
 .image-kovalev {
-    background-image: url(../images/artem-kovalev-alien-unsplash.jpg);
+  background-image: url(../images/artem-kovalev-alien-unsplash.jpg);
 }
 
 .image-miriam {
-    background-image: url(../images/miriam-espacio-alien-unsplash.jpg);
+  background-image: url(../images/miriam-espacio-alien-unsplash.jpg);
 }
 
 .main-footer {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    height: 0;
-    transform: translateY(-1.2rem);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  height: 0;
+  transform: translateY(-1.2rem);
 }
 
 #aliens {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 720px) {
-    .nav-style {
-        display: none;
-    }
-    #home {
-        display: none;
-    }
-    #about {
-        display: none;
-    }
-    #cargo {
-        display: none;
-    }
-    #travel {
-        display: none;
-    }
-    #pricing {
-        display: none;
-    }
-    #aliens {
-        display: block;
-    }
+  .nav-style {
+    display: none;
+  }
+  #home {
+    display: none;
+  }
+  #about {
+    display: none;
+  }
+  #cargo {
+    display: none;
+  }
+  #travel {
+    display: none;
+  }
+  #pricing {
+    display: none;
+  }
+  #aliens {
+    display: block;
+  }
 
-    .content-lineone {
-        margin: 0.2rem 0rem;
-        padding: 0.2rem 0rem;
-        font-size: 1.5rem;
-    }
-    
-    .content-linetwo {
-        margin: 0.2rem 0rem;
-        padding: 0.2rem 0rem;
-        font-size: 2rem;
-        font-weight: bold;
-    }
+  .content-lineone {
+    margin: 0.2rem 0rem;
+    padding: 0.2rem 0rem;
+    font-size: 1.5rem;
+  }
+  
+  .content-linetwo {
+    margin: 0.2rem 0rem;
+    padding: 0.2rem 0rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
 }
