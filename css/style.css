@@ -140,7 +140,7 @@ span {
     background-image: url(../images/miriam-espacio-alien-unsplash.jpg);
 }
 
-footer {
+.main-footer {
     text-align: center;
     text-transform: uppercase;
     padding: 0.7rem 0rem;
@@ -151,6 +151,10 @@ footer {
 }
 
 .fixed-footer {
+  width: 100%;
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
   position: absolute;
   bottom: 0;
 }
