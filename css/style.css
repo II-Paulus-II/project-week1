@@ -19,6 +19,7 @@ header {
 
 .page-title {
     display: inherit;
+    font-weight: bolder;
     font-size: 1.6rem;
 }
 
