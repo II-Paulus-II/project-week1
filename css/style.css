@@ -10,10 +10,14 @@ html {
 header {
     position: fixed;
     display: flex;
+    padding: 2rem 2.5rem;
+    gap: 6rem;
+    text-transform: uppercase;
 }
 
 .page-title {
-    font-size: 1.2rem;
+    display: inherit;
+    font-size: 1.7rem;
 }
 
 .white-text {
@@ -21,8 +25,19 @@ header {
     z-index: 1;
 }
 
-.nav-syle {
-    font-size: 1.1rem;
+.nav-style {
+    display: inherit;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: 3rem;
+}
+
+.nav-style a {
+    text-decoration: none;
+}
+
+.nav-style a:link,a:visited,a:hover,a:active {
+    color: white;
 }
 
 .information-position {
@@ -54,14 +69,6 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-}
-
-.image-galaxy {
-    background-image: url(../images/galaxy.jpg);
-}
-
-.image-eclipse {
-    background-image: url(../images/eclipse.jpg);
 }
 
 .image-niketh {
