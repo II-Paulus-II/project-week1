@@ -49,14 +49,16 @@ header {
 .information-position {
     position: absolute;
     padding-left: 5rem;
-    bottom: 25%;
+    bottom: 35%;
 }
 
 .content-lineone {
+    padding: 0.2rem;
     font-size: 2rem;;
 }
 
 .content-linetwo {
+    padding: 0.2rem;
     font-size: 2.5rem;
     font-weight: bold;
 }
