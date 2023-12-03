@@ -30,6 +30,24 @@ header {
     bottom: 25%;
 }
 
+.content-lineone {
+    font-size: 1rem;;
+}
+
+.content-linetwo {
+    font-size: 1rem;;
+}
+
+.imageattrib-pos {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.attribution-text {
+    font-size: 1rem;
+}
+
 .background-fullHeight {
     height: 100vh;
     background-size: cover;
@@ -44,4 +62,24 @@ header {
 
 .image-eclipse {
     background-image: url(../images/eclipse.jpg);
+}
+
+.image-niketh {
+    background-image: url(../images/niketh-vellanki-space-unsplash.jpg);
+}
+
+.image-vincentiu {
+    background-image: url(../images/vincentiu-solomon-space-unsplash.jpg);
+}
+
+.image-cerqueira {
+    background-image: url(../images/cerqueira-space-unsplash.jpg);
+}
+
+.image-eberhard {
+    background-image: url(../images/eberhard-grossgasteiger-space-unsplash.jpg);
+}
+
+.image-aldebaran {
+    background-image: url(../images/aldebaran-s-space-unsplash.jpg);
 }
