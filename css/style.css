@@ -13,6 +13,7 @@ header {
     position: fixed;
     display: flex;
     padding: 2rem 2.5rem;
+    text-shadow: black 1px 1px;
     gap: 6rem;
 }
 
@@ -34,33 +35,53 @@ header {
     gap: 3rem;
 }
 
-.nav-style a {
+a {
     text-decoration: none;
 }
 
-.nav-style a:link,a:visited,a:hover,a:active {
+a:link,a:visited,a:hover,a:active {
     color: white;
 }
 
-.nav-style a:hover {
+a:hover {
     text-decoration: underline;
 }
 
 .information-position {
     position: absolute;
-    padding-left: 5rem;
+    padding-left: 2rem;
     bottom: 35%;
 }
 
 .content-lineone {
-    padding: 0.2rem;
+    margin: 0.2rem 0rem;
+    padding: 0.2rem 0rem;
     font-size: 2rem;;
 }
 
 .content-linetwo {
-    padding: 0.2rem;
+    margin: 0.2rem 0rem;
+    padding: 0.2rem 0rem;
     font-size: 2.5rem;
     font-weight: bold;
+}
+
+.read-more-link {
+    opacity: 1;
+    display: inline-block;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    font-weight: bolder;
+    text-shadow: none;
+    border: solid white 2px;
+}
+
+.read-more-link:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
 }
 
 .imageattrib-pos {
@@ -72,10 +93,7 @@ header {
 .attribution-text {
     font-size: 0.8rem;
     text-transform: capitalize;
-}
-
-.attribution-text a:link,a:visited,a:hover,a:active {
-    color: white;
+    text-shadow: none;
 }
 
 span {
@@ -88,10 +106,12 @@ span {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    text-shadow: black 1px 1px;
 }
 
 .image-niketh {
     background-image: url(../images/niketh-vellanki-space-unsplash.jpg);
+    text-shadow: black 2px 2px; /* meeds a little bit extra due to the spaceman */
 }
 
 .image-vincentiu {
